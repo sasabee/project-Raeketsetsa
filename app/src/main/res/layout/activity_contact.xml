@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="de.andreasschrade.androidtemplate.ui.quote.Contact">
+
+
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="551dp"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:ignore="MissingConstraints">
+    <LinearLayout
+            android:id="@+id/samples_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/samples_fab"
+            android:orientation="vertical"
+            android:weightSum="1"
+            tools:layout_editor_absoluteY="0dp"
+            tools:layout_editor_absoluteX="8dp">
+
+
+
+
+            <TextView
+                android:id="@+id/contact"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="CONTACT US"
+                android:fontFamily="sans-serif"
+                android:textSize="28sp"
+                android:textColor="@color/colorPrimaryDark"
+                android:textStyle="italic"
+                tools:layout_editor_absoluteX="-26dp"
+                tools:layout_editor_absoluteY="42dp"
+                tools:ignore="MissingConstraints" />
+
+
+            <TextView
+                android:id="@+id/contacts"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+
+                android:textColor="@color/secondary_text"
+                android:textStyle="italic"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="397dp" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:scaleType="fitCenter"
+
+            android:src="@drawable/ladies" />
+
+
+    </LinearLayout>
+
+
+    </android.support.v4.widget.NestedScrollView>
+
+</android.support.constraint.ConstraintLayout>

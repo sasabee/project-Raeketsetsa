@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+
+            android:id="@+id/nav_about"
+            android:icon="@drawable/about"
+            android:title="About" />
+
+        <item
+            android:id="@+id/nav_quotes"
+            android:icon="@drawable/ic_discuss"
+            android:title="@string/navigation_quotes" />
+
+
+        <item
+            android:id="@+id/nav_samples"
+            android:icon="@drawable/ic_forum"
+            android:title="@string/navigation_samples" />
+
+
+    </group>
+
+
+    <group android:checkableBehavior ="single"
+
+        >
+
+        <item
+            android:icon="@drawable/ic_smartphone_black_24dp"
+            android:title="Services"
+            android:checked="false"
+            android:id="@+id/nav_programmes"/>
+        <item
+            android:icon="@drawable/graphics"
+            android:id="@+id/games"
+            android:title="@string/navigation_dummy_item_2"
+            android:visible="false"/>
+        <item
+            android:icon="@drawable/ic_smartphone_black_24dp"
+            android:id="@+id/mobile"
+            android:title="@string/navigation_dummy_item_1"
+            android:visible="false"/>
+
+
+        <item
+            android:icon="@drawable/cloud"
+            android:id="@+id/code"
+            android:title="@string/navigation_dummy_item_3"
+            android:visible="false"/>
+        <item
+            android:icon="@drawable/robots"
+            android:id="@+id/robot"
+            android:title="@string/navigation_dummy_item_4"
+            android:visible="false"/>
+        <item
+            android:icon="@drawable/ic_smartphone_black_24dp"
+            android:id="@+id/digital"
+            android:title="@string/navigation_dummy_item_5"
+            android:visible="false"/>
+        <item
+            android:icon="@drawable/business"
+            android:id="@+id/business"
+            android:title="@string/navigation_dummy_item_6"
+            android:visible="false"/>
+
+    </group>
+
+</menu>

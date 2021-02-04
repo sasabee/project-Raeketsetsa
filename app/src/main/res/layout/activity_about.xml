@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="de.andreasschrade.androidtemplate.ui.quote.About">
+
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:id="@+id/samples_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/samples_fab"
+            android:orientation="vertical"
+            android:weightSum="1"
+            tools:layout_editor_absoluteY="8dp"
+            tools:layout_editor_absoluteX="8dp"
+            tools:ignore="MissingConstraints">
+
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="ABOUT US"
+            android:fontFamily="sans-serif"
+            android:textSize="28sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="italic"
+            tools:layout_editor_absoluteX="-26dp"
+            tools:layout_editor_absoluteY="42dp"
+            tools:ignore="MissingConstraints" />
+
+
+        <TextView
+        android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+        android:text="@string/about"
+        android:textColor="@color/secondary_text"
+        android:textStyle="italic"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="397dp" />
+
+            <ImageView
+                android:id="@+id/recipe_image"
+                android:layout_width="match_parent"
+                android:layout_height="96dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/raeketsetsa"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" OUR MISSION"
+                android:fontFamily="sans-serif"
+                android:textSize="28sp"
+                android:textColor="@color/colorPrimaryDark"
+                android:gravity="center"
+
+                android:textStyle="italic"/>
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Raeketsetsa is a movement that empowers girls and young women in the ICT,giving them the confidence to pursue ICT studies,career and their daily lives. Girls and young women have the potential not only to become ICT users,but also to become ICT creators. Raeketsetsa aims to make young women of South Africa aware of the vast possibilities ICT offers,quelling misconceptions about the sector and inviting them to envisio their future as ICT creators."
+                android:textColor="@color/secondary_text"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" OUR VISION"
+                android:fontFamily="sans-serif"
+                android:textSize="28sp"
+                android:textColor="@color/colorPrimaryDark"
+                android:gravity="center"
+
+                android:textStyle="italic"/>
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Being a platform for ICT for young women,Raeketsetsa will equip young women from both township and rural areas with necessary skills in the ICT field while realizing entrepreneurship oppurtunities. RAEKETSETA is designed to empower girls within the ICT field, being interest and ensure competence of Girl developers within the field. Primitive Objective: Get girls in one room doing development stuff. "
+                android:textColor="@color/secondary_text"
+                android:gravity="center"
+
+                android:textStyle="italic"/>
+        </LinearLayout>
+
+
+    </android.support.v4.widget.NestedScrollView>
+
+
+
+
+
+</android.support.constraint.ConstraintLayout>
